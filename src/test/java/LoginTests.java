@@ -13,15 +13,10 @@ public class LoginTests extends BaseTest {
 //      Added ChromeOptions argument below to fix websocket error
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
-<<<<<<< Updated upstream
-
-=======
-//      Thwdawdad
->>>>>>> Stashed changes
         WebDriver driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        String url = "https://qa.koel.app/";
+        String url = "no url";
         driver.get(url);
         Assert.assertEquals(driver.getCurrentUrl(), url);
         Thread.sleep(2000); //Added a temporary Thread.sleep for demo purposes
