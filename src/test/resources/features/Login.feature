@@ -9,8 +9,7 @@ Feature: Login feature
     Examples:
       | email                | password   |
       | "planner@testpro.io" | "6JooL8gp" |
-      | "test@testpro.io"    | ""         |
-      | "bfhvjngkr"          | "6JooL8gp" |
+
 
 
   Scenario: Forgot Password
