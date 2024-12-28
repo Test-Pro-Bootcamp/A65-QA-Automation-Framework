@@ -100,7 +100,7 @@ public class SongsTests extends BaseTest {
         //
         WebElement input = driver.findElement(By.cssSelector(".playlist:nth-child(3) input"));
         input.sendKeys(Keys.chord(Keys.COMMAND, "A", Keys.DELETE)); // this should work for Mac
-       // input.sendKeys(Keys.chord(Keys.CONTROL, "A", Keys.DELETE)); // this should work for Windows
+      //  input.sendKeys(Keys.chord(Keys.CONTROL, "A", Keys.DELETE)); // this should work for Windows
         input.sendKeys("1000");
         input.sendKeys(Keys.ENTER);
         String nameAfter = firstCustomPlaylist.getText();
